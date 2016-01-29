@@ -230,8 +230,7 @@ function create_config( )
       }
    sudo_users = {167268835},{164100672},{136888679}
     disabled_channels = {},
-    moderation = {data = 'data/moderation.json'}
-  }
+    moderation = {data = 'data/moderation.json'},
   serialize_to_file(config, './data/config.lua')
   print ('saved config into ./data/config.lua')
 end
